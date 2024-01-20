@@ -1,0 +1,35 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    margin: 0;
+    line-height: inherit;
+    font-family: Poppins, sans-serif;
+}
+
+.topbar {
+    background-color: #DBE7D8;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(219 231 216 / var(--tw-bg-opacity));
+
+}
+
+a {
+    text-decoration: inherit;
+    color: #4C893B;
+}
+
+.topbar a {
+    color: #4C893B;
+    margin-left: 0.75rem;
+    /* (3 * 0.25) */
+    margin-right: 0.75rem;
+    /* (3 * 0.25) */
+    font-weight: 500;
+    font-size: 12px;
+    font-family: Poppins, sans-serif;
+}
